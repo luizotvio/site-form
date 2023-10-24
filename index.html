@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <h3>Cadastre seu veículo para vender mais rápido!</h3>
+    </header>
+
+    <main class="form-container">
+        <p>Formulário</p>
+        <h2>Venda fácil seu carro!</h2>
+        <p>Descreva as caracteristicas e marque os opcionais que ele possui</p>
+        <form action="">
+            <div>
+                <label for="tittle-anun">Título do anúncio: <span class="red-point">*</span></label>
+                <input type="text" name="tittle-anun" id="" placeholder="Um título para anunciar seu carro"
+                    minlength="1" maxlength="30" required>
+            </div>
+            <div>
+                <label for="tittle-price">Preço: <span class="red-point">*</span></label>
+                <input type="number" name="tittle-price" id="" placeholder="Defina o preço" required>
+            </div>
+            <div>
+                <label for="tittle-description">Descrição: <span class="red-point">*</span></label>
+                <textarea name="tittle-description" id=""
+                    placeholder="Aqui você coloca os detalhes do veículo, por exemplo: se ele tem algum arranhão"
+                    required></textarea>
+            </div>
+            <div>
+                <label for="tittle-anunc">Título do anúncio: <span class="red-point">*</span></label>
+                <input type="text" name="tittle-anunc" id="" placeholder="Digite a marca do veículo" required>
+            </div>
+            <div>
+                <label for="tittle-brand">Marca: <span class="red-point">*</span></label>
+                <input type="text" name="tittle-brand" id="tittle-brand" placeholder="Digite a marca do veículo"
+                    required>
+            </div>
+            <div>
+                <label for="tittle-model">Modelo: <span class="red-point">*</span></label>
+                <input type="text" name="tittle-model" id="tittle-model" placeholder="Digite o modelo do veículo"
+                    required>
+            </div>
+            <div>
+                <label for="tittle-mileage">Kilometragem: <span class="red-point">*</span></label>
+                <input type="number" name="tittle-mileage" id="tittle-mileage"
+                    placeholder="Digite a kilometragem do veículo" required>
+            </div>
+            <div>
+                <label for="purchase-date">Data de compra <span class="red-point">*</span></label>
+                <input type="date" name="purchase-date" id="purchase-date" required>
+            </div>
+            <div>
+                <p>Tipo de câmbio: <span class="red-point">*</span></p>
+                <input type="radio" name="manual" id="gear">
+                <label for="manual">Manual</label>
+                <input type="radio" name="auto" id="gear">
+                <label for="auto">Automático</label>
+            </div>
+            <div class="optional-box">
+                <p>Opcionais</p>
+                <ul class="optional-list">
+                    <li>
+                        <input type="checkbox" id="airbag" name="optional[]" value="airbag">
+                        <label for="airbag">Airbag</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="alarm" name="optional[]" value="alarm">
+                        <label for="alarm">Alarme</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ac" name="optional[]" value="ac">
+                        <label for="ac">Ar Condicionado</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="reverse-camera" name="optional[]" value="reverse-camera">
+                        <label for="reverse-camera">Câmera de Ré</label>
+                    </li>
+                </ul>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
