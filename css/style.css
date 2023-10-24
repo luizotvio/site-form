@@ -74,3 +74,10 @@ header h3 {
     font-weight: 300;
 }
 
+footer {
+    font-weight: 200;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
