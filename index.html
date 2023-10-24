@@ -80,7 +80,31 @@
                     </li>
                 </ul>
             </div>
-            <input type="submit" value="Enviar">
+            <div class="optional-box">
+                <ul class="optional-list">
+                    <li>
+                        <input type="checkbox" id="lane-assist" name="optional[]" value="lane-assist">
+                        <label for="lane-assist">Assistente de Pista</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="keyless" name="optional[]" value="keyless">
+                        <label for="keyless">Partida Keyless</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="smartphone" name="optional[]" value="smartphone">
+                        <label for="smartphone">Integração com Celular</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="leather-seat" name="optional[]" value="leather-seat">
+                        <label for="leather-seat">Banco de Couro</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-box">
+                <p>Fotos do Carro: <span class="red-point">*</span></p>
+                <input type="file" multiple accept="image/png, image/jpg" name="images" id="images" required>
+            </div>
+            <input type="submit" value="Enviar" class="btn-submit">
         </form>
     </main>
 
