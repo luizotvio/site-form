@@ -109,6 +109,12 @@ header h3 {
     width: 150px;
     border-radius: 10px;
     cursor: pointer;
+    color: #3f5efbcc;
+}
+
+.btn-submit:hover {
+    color: #fff;
+    background-color: #3f5efbcc;
 }
 
 footer {
